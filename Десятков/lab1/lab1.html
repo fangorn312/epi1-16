@@ -1,0 +1,149 @@
+<html>
+   <head>
+      <title> Организация простой таблицы </title>
+   </head>
+   <body>
+      <!-- Начало главной таблицы -->
+      <table border="1" width="100%" height="100%" cellpadding="5">
+         <tr>
+            <th bgcolor="#423456" colspan="2"><font color="#abc234">Группа 1</font></th>
+            <th bgcolor="#ff2556"><font color="#564564">Группа 2</font></th>
+            <th bgcolor="#325346"  colspan="2"><font color="#f56564">Группа 3</font></th>
+         </tr>
+         <tr>
+            <td bgcolor="#001156" rowspan="5" width="30%">
+               <dl>
+                  <!-- Начало термина -->
+                  <dt><font color="#0263a3">Gif</font></dt>
+                  <!-- Конец термина -->
+                  <!-- Начало определения -->
+                  <dd><font color="#ff9999">Формат графических файлов, широко применяемый при создании сайтов. 
+                     GIF использует 8-битовый цвет и эффективно сжимает сплошные цветные области, 
+                     при этом сохраняя детали изображения.</font>
+                  </dd>
+                  <!-- Конец определения -->
+                  <dt><font color="#2ab423">JPEG</font></dt>
+                  <dd><font color="#ff00f0">Популярный формат графических файлов, широко применямый при создании 
+                     сайтов и хранения изображений. JPEG поддерживает 24-битовый цвет и сохраняет 
+                     яркость и оттенки цветов в фотографиях. Данный формат называют сжатием с потерями, 
+                     поскольку алгоритм JPEG выборочно отвергает данные. Метод сжатия может исказить 
+                     деталь в рисунке, особенно содержащий текст или изображение с четкими краями. 
+                     Формат JPEG не поддерживает прозрачность, когда вы сохраняете фотографию в формате 
+                     JPEG, прозрачные пиксели заполняются определенным цветом.</font>
+                  </dd>
+               </dl>
+            </td>
+            <td bgcolor="#12a456" >
+               <font color="#080034">
+                  <!-- Нумерованный список i -->
+                  <ol type="i">
+                     <li>История</li>
+                     <li>Математика</li>
+                     <li>Литература</li>
+                  </ol>
+               </font>
+            </td>
+            <td bgcolor="#b23456" >
+               <font color="#03f636">
+                  <!-- Нумерованный список A -->
+                  <ol type="A">
+                     <li>Apple</li>
+                     <li>Samsung</li>
+                     <li>Xiaomi</li>
+                  </ol>
+               </font>
+            </td>
+            <td bgcolor="#b23456" >
+               <font color="#ffffff">
+                  <!-- Нумерованный список а -->
+                  <ol type="a">
+                     <li>Intel</li>
+                     <li>AMD</li>
+                  </ol>
+               </font>
+            </td>
+            <td bgcolor="#ff5236"  rowspan="3">
+               <font color="#0411d6">
+                  <!-- Нумерованный список I -->
+                  <ol type="I">
+                     <li>BMW</li>
+                     <li>Lexus</li>
+                     <li>Mercedes-Benz</li>
+                  </ol>
+               </font>
+            </td>
+         </tr>
+         <tr>
+            <td bgcolor="#f06364">
+               <!-- Нумерованный список 1 -->
+               <ol type="1">
+                  <li><font color="#463934">First</font></li>
+                  <li><font color="#000000">Second</font></li>
+                  <li><font color="#578106">Third</font></li>
+               </ol>
+            </td>
+            <td bgcolor="#236743">
+               <font color="#ffeeaa">
+                  <ol type="1">
+                     <li>Барселона</li>
+                     <li>Челси</li>
+                     <li>Ливерпуль</li>
+                  </ol>
+               </font>
+            </td>
+            <td bgcolor="#236743" rowspan="2" align="center"><img src="groot.png" alt="I am Groot" height=400 width=300></td>
+         </tr>
+         <tr>
+            <td bgcolor="#125754" colspan="2" align="center">
+               <font color="#ffffff">Вложенная таблица</font>
+               <!-- Начало вложенной таблицы -->
+               <table border="1" width="100%">
+                  <tr>
+                     <th bgcolor="#765834"><font color="#ff4f23">ФИО</font></th>
+                     <th bgcolor="#934523"><font color="#89a3f3">Высшее учебное заведение</font></th>
+                     <th bgcolor="#692323"><font color="#89f3f3">Среднее учебное заведение</font></th>
+                  </tr>
+                  <tr>
+                     <td bgcolor="#fff123">
+                        <font color="#252abc">
+                           <!-- Ненумерованный список круг -->
+                           <ul type="circle">
+                              <li> Иванон Иван</li>
+                              <li> Петров Петр</li>
+                              <li> Дмитриев Дмитрий</li>
+                           </ul>
+                        </font>
+                     </td>
+                     <td bgcolor="#1433ee">
+                        <ul>
+                           <li><font color="#289223">КРСУ</font></li>
+                           <li><font color="#bbb423">КГТУ</font></li>
+                           <li><font color="#ea1232">КГМА</font></li>
+                        </ul>
+                     </td>
+                     <td bgcolor="#f4f3ee">
+                        <font color="#289223">
+                           <!-- Ненумерованный список -->
+                           <ul>
+                              <li>Лицеи</li>
+                              <li>Колледжим</li>
+                              <li>Интернаты</li>
+                           </ul>
+                        </font>
+                     </td>
+                  </tr>
+                  <!-- Конец вложенной таблицы -->
+               </table>
+            </td>
+         </tr>
+         <tr>
+            <td bgcolor="#25611f" colspan="2" face="Helvetica"><font color="#ffffff"><b>Шрифт Helvetica BOLD<b></font></td>
+            <td bgcolor="#0e5eff" colspan="2" face="Times New Roman"><font color="#f568ff"><i>Шрифт Times New Roman ITALICS<i></font></td>
+         </tr>
+         <tr>
+            <td bgcolor="#aa5eff" colspan="4" face="Courier"><font color="#ffffff"><u>Шрифт Courier UNDERLINE<u></font></td>
+         </tr>
+         <!-- Конец главной таблицы -->
+      </table>
+   </body>
+</html>
